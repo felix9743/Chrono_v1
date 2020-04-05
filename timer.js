@@ -39,6 +39,7 @@ function time(info, reset = false) {
 
 	if (reset) {
 		timer.innerText = "00:00:00:00";
+		document.title  = "00:00:00:00";
 
 		t_milli   = 0;
 		t_seconde = 0;
