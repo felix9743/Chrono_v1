@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>00:00:00</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1 id="timer">00:00:00:00</h1>
+
+		<div id="g_start">
+			<button id="bt_start" onclick="start_stop()">Démarrer le chrono</button>
+			<span id="space01"></span>
+			<button id="bt_reset" onclick="time('', true)">Réinitialiser</button>
+		</div>
+
+		<button id="bt_stop" style="display: none;" onclick="start_stop()">Arrêter le chrono</button>
+
+
+		<script type="text/javascript" src="./timer.js"></script>
+	</body>
+</html>

@@ -1,0 +1,36 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: calibri;
+	font-size: 30px;
+	text-align: center;
+
+}
+
+body {
+	margin-top: 20vh;
+	background-color: #101010;
+}
+
+h1 { font-size: 120px; color: #E8E8E8; }
+
+button {
+	border-radius: 50px;
+	padding: 15px;
+	border: none;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover { transition: 0.3s; }
+
+#bt_start { background-color: #01C76F; }
+#bt_start:hover { background-color: #00AB5D; }
+
+#bt_reset { background-color: #3399DB; }
+#bt_reset:hover { background-color: #2E89C1; }
+
+#bt_stop { background-color: #EB4C37; }
+#bt_stop:hover { background-color: #C43827; }
+
+#space01 { margin-left: 10px; margin-right: 10px; }
